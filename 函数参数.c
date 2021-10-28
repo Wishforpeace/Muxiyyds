@@ -2,9 +2,9 @@
 void DrinkMilk(char *cBottle);
 int main()
 {
-	char *cPoke[]="";
+	char cPoke[]="";
 	printf("Mother wanna give the baby");
-	scanf("%s",&*cPoke);
+	scanf("%s",cPoke);
 	DrinkMilk(cPoke);
 	return 0;
 
